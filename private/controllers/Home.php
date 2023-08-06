@@ -6,7 +6,7 @@
 
         public function index() {
             // the code 
-            echo $this->view("home");
+            $this->view("home");
         }
 
     }

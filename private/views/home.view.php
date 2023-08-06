@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-</head>
-<body>
-    <h1>This is Home View</h1>
-</body>
-</html>
+<?php $this->view('includes/header') ?>
+<?php $this->view('includes/nav') ?>
 
+    <div class="container-fluid">
+        <h1><i class="fa fa-plus"></i>This is Home View</h1>
+    </div>
+    
+<?php $this->view('includes/footer') ?>
