@@ -16,22 +16,25 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" href="#">DASHBOARD</a>
+          <a class="nav-link active" href="<?=ROOT?>">DASHBOARD</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">CLASSES</a>
+          <a class="nav-link" href="<?=ROOT?>/users">USERS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">TESTS</a>
+          <a class="nav-link" href="<?=ROOT?>/classes">CLASSES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<?=ROOT?>/tests">TESTS</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             USER
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">PROFILE</a></li>
+            <li><a class="dropdown-item" href="<?=ROOT?>/profile">PROFILE</a></li>
             <div class="dropdown-divider"></div>
-            <li><a class="dropdown-item" href="#">LOGOUT</a></li>
+            <li><a class="dropdown-item" href="<?=ROOT?>/logout">LOGOUT</a></li>
           </ul>
         </li>
       </ul>
