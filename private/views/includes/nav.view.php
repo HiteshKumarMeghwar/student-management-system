@@ -3,6 +3,12 @@
         background-color: grey;
         color: white !important;
     }
+    nav ul li a{
+        width: 110px;
+        text-align: cetner;
+        border-left: solid thin #eee;
+        border-right: solid thin #fff;
+    }
 </style>
 <nav class="navbar navbar-expand-lg navbar-light bg-light p-2">
   <div class="container-fluid">
@@ -27,11 +33,13 @@
         <li class="nav-item">
           <a class="nav-link" href="<?=ROOT?>/tests">TESTS</a>
         </li>
+      </ul>
+      <ul class="navbar-nav ms-auto">
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             USER
           </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
             <li><a class="dropdown-item" href="<?=ROOT?>/profile">PROFILE</a></li>
             <div class="dropdown-divider"></div>
             <li><a class="dropdown-item" href="<?=ROOT?>/logout">LOGOUT</a></li>

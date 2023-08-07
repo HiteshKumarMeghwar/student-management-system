@@ -2,7 +2,7 @@
 <?php $this->view('includes/nav') ?>
 
     <div class="container-fluid">
-        <h1><i class="fa fa-plus"></i>This is Home View</h1>
+        
     </div>
     
 <?php $this->view('includes/footer') ?>
